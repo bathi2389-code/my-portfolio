@@ -146,4 +146,7 @@ def delete_contact(
     return {
         "message": "Contact deleted successfully"
     }
+@app.get("/")
+def health_check():
+    return {"message": "API is running"}
 
