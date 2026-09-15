@@ -16,4 +16,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r back/requirements.txt
       - name: Run tests
-        run: pytest back/tests --maxfail=1 --disable-warnings -q
+        run: PYTHONPATH=./back python3 -m pytest back/tests --maxfail=1 --disable-warnings -q
