@@ -29,7 +29,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
     "http://localhost:5186",
-    "https://portfolio-ashy-tau-76.vercel.app"],
+    "https://portfolio-48pwpygaf-dragon-4898.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
